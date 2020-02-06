@@ -40,6 +40,7 @@ header{
  padding-top: 2%;
  padding-right: 5%;
  padding-left: 5%;
+ margin-bottom: 200px;
 /* background-color: rgb(161, 201, 64);*/
 
 
@@ -55,7 +56,10 @@ header{
   align-items: center;*/
   background-size: cover;
 
+}
 
+.div:hover{
+  transform: scale(1.2);
 }
 
 footer {
@@ -63,7 +67,8 @@ footer {
   font-size: 20px;
   font-family: 'Bangers', cursive;
   background-color: rgb(176, 222, 218);
-  padding-top: 3em;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 #pokemon {
