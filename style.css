@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+
+}
+
+.level1{
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 3%;
+  align-self: center;
+ border: solid;
+ width: 90%;
+
+}
+.div {
+  border: solid;
+  height: 30vh;
+  width: 100%;
+  display: inline-grid;
+  text-align: center;
+  justify-content: center;
+  overflow: auto;
+  align-items: center;
+
+
+}
+
+#pokemon {
+  border: solid;
+}
+
+@media screen and (min-width: 768px){
+  body{
+  }
+  .level1{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.pop {
+  z-index: 1;
+  background-color: blue
+}
+
+.modal{
+  z-index: 1; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  margin: 10%;
+  width: 70%; /* Full width */
+  height: 70%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4);
+  border: solid; /* Black w/ opacity */
+}
+
+.hidden{
+  display: none;
+}
+
+img {
+  width: 44%;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
