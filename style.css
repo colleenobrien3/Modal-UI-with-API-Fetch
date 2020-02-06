@@ -16,11 +16,12 @@ header{
   font-size: 30px;
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 10px;
   margin: 0;
   font-family: 'Bangers', cursive;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
 
 
 }
@@ -115,10 +116,15 @@ footer {
   background-color: rgba(0,0,0,0.4)*//*;*/
   background-color: white;
   border: solid; /* Black w/ opacity */
-  font-size: 10em;
+  font-size: 5em;
 
 }
 
+.exitButton {
+  border: solid;
+  height: 30px;
+  background-color: black;
+}
 
 
 img {

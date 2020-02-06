@@ -18,7 +18,19 @@ fetch(baseUrl)
   	let newModal = document.createElement('span')
 	 newModal.classList.add('modal')
 	newModal.classList.add('hidden')
-  newModal.innerText = 'Name: ' + res.name + '\n' + 'Species: ' + res.species + '\n' + 'Origin: ' + res.origin.name + '\n' + 'Status: ' + res.status
+
+
+  let exitButton = document.createElement('div')
+ exitButton.appendChild(document.createTextNode('test value'));
+  newModal.appendChild(exitButton)
+  exitButton.classList.add('exitButton')
+  exitButton.addEventListener('click', removeClass)
+  function removeClass(e){
+    e.target.parentElement.classList.toggle('hidden')
+  }
+
+
+  newModal.innerText = 'Name: ' + res.name + '\n' + 'Species: ' + res.species + '\n' + 'Origin: ' + res.origin.name + '\n' + 'Location: ' + res.location.name + '\n' + 'Status: ' + res.status
   document.querySelector('body').appendChild(newModal)
 	// newElement.appendChild(newModal)
 	newElement.addEventListener('click', popUp)
