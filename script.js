@@ -18,7 +18,9 @@ fetch(baseUrl)
   	let newModal = document.createElement('span')
 	 newModal.classList.add('modal')
 	newModal.classList.add('hidden')
-	newElement.appendChild(newModal)
+  newModal.innerText = 'Name: ' + res.name
+  document.querySelector('body').appendChild(newModal)
+	// newElement.appendChild(newModal)
 	newElement.addEventListener('click', popUp)
 	function popUp(event){
     console.log(event.target)
