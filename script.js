@@ -18,7 +18,7 @@ fetch(baseUrl)
   	let newModal = document.createElement('span')
 	 newModal.classList.add('modal')
 	newModal.classList.add('hidden')
-  newModal.innerText = 'Name: ' + res.name
+  newModal.innerText = 'Name: ' + res.name + '\n' + 'Species: ' + res.species + '\n' + 'Origin: ' + res.origin.name + '\n' + 'Status: ' + res.status
   document.querySelector('body').appendChild(newModal)
 	// newElement.appendChild(newModal)
 	newElement.addEventListener('click', popUp)
