@@ -197,6 +197,10 @@ img {
     padding-right: 10px;
     font-size: 30px;
   }
+  footer {
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
 }
 
 
