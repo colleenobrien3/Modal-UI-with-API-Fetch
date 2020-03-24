@@ -1,6 +1,6 @@
 # Modal UI with API Fetch
 
-For this project, I was given an interactive UI modal template mockup to recreate using HTML and CSS. I wrote the basic structure in HTML but added most of the features, along with the functionality, with Vanilla JavaScript. I used the JavaScript fetch method to pull data from the online API ['The Rick and Morty API.']('https://rickandmortyapi.com/')
+For this project, I was given an interactive UI modal template mockup to recreate using HTML and CSS. I wrote the basic structure in HTML but added most of the features, along with the functionality, with Vanilla JavaScript. I used the JavaScript fetch method to pull data from the online API ['The Rick and Morty API.'](https://rickandmortyapi.com/)
 
 ## Built With
 
